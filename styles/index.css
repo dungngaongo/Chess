@@ -1,0 +1,79 @@
+body {
+    background-color: #302e2b;
+    justify-content: center;
+    gap: 2vw;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.squareRow {
+    display: flex;
+}
+
+.square {
+    width: 75px;
+    height: 75px;
+    position: relative;
+}
+
+.white {
+    background-color: #eeeed2;
+}
+
+.black {
+    background-color: #769656;
+}
+
+.highlightYellow {
+    background: #f7f769;
+}
+
+.piece {
+    width: 100%;
+    cursor: pointer;
+}
+
+.captureColor {
+    background-color: #ee4b2b;
+}
+  
+.highlight {
+    width: 32px;
+    display: block;
+    height: 32px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.17);
+}
+
+.labelId {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    left: 2px;
+    top: 0px;
+}
+
+.white-label-id {
+    color: #6c8158;
+}
+
+.black-label-id {
+    color: #eeeed2;
+}
+
+.d-flex {
+    display: flex;
+}
+
+#move_logger {
+    width: 20vw;
+    height: 600px;
+    background-color: green;
+}
